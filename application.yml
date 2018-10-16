@@ -17,5 +17,5 @@ spring:
     active:
     - test  ##测试环境
   application:
-    name: microservicecloud-config-haylion-dev
+    name: microservicecloud-config-haylion-test
 # 请保存为UTF-8的格式
