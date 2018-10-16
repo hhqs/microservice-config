@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles: 
+    active:
+    - dev   ##开发环境
+  application:
+    name: microservicecloud-config-haylion-dev
+    
+---
+spring:
+  profiles:
+    active:
+    - test  ##测试环境
+  application:
+    name: microservicecloud-config-haylion-dev
+# 请保存为UTF-8的格式
