@@ -40,8 +40,6 @@ eureka:
 info:
   app.name: haylion-microservicecloud
   company.name: www.haylion.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
   
   
   
